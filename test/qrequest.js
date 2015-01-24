@@ -55,9 +55,19 @@ describe ("QRequest", function(){
             done();
         });
     });
+    it ("should use bound properties for further requests", function(){
+        var r = new Request({url: "http://echo.jsontest.com/key/value/one/two"});
+        return r.get(undefined)
+            .spread(function(response, body){
+                return JSON.parse(body);
+            }).should.eventually.deep.equal({
+                "one": "two",
+                "key": "value"
+            });
+    });
     it ("should make requests to existing URL", function(){
         return (new Request).get("http://echo.jsontest.com/key/value/one/two")
-            .spread(function(responce, body){
+            .spread(function(response, body){
                 return JSON.parse(body);
             })
             .should.eventually.deep.equal({
