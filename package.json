@@ -1,6 +1,6 @@
 {
   "name": "q-wrapped-request",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Q-promise request library wrapper",
   "main": "index.js",
   "scripts": {

@@ -11,7 +11,7 @@ It will produce Q-promises for request methods:
 
 ## Installation
 ```
-npm install q-wrapped-requst
+npm install q-wrapped-request
 ```
 
 ## Fulfillment
