@@ -9,6 +9,10 @@ It will produce Q-promises for request methods:
 * post
 * put
 
+## Installation
+```
+npm install q-wrapped-requst
+```
 
 ## Fulfillment
 
