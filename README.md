@@ -1,4 +1,4 @@
-# QRequst
+# QRequest
 
 A [Q-promise](https://github.com/kriskowal/q) [request](https://github.com/request/request) node module wrapper.
 It will produce Q-promises for request methods:
