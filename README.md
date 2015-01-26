@@ -13,8 +13,8 @@ It will produce Q-promises for request methods:
 ```
 npm install q-wrapped-request
 ```
-Note: The module is using `peerDependencies` to require `Q` and `request`, so your project should have its own
-dependencies installed.
+Note: The module is using `peerDependencies` to require `Q` and `request`, so your project may have its own
+dependencies on both libraries installed.
 
 ## Fulfillment
 
