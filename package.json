@@ -18,9 +18,9 @@
   "author": "Motorro <motorro@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/motorro/QRequst/issues"
+    "url": "https://github.com/motorro/q-wrapped-request/issues"
   },
-  "homepage": "https://github.com/motorro/QRequst",
+  "homepage": "https://github.com/motorro/q-wrapped-request",
   "peerDependencies": {
     "q": "^1.0",
     "request": "^2.0"
@@ -28,6 +28,8 @@
   "devDependencies": {
     "mocha": "^2.1.0",
     "chai": "^1.10.0",
-    "chai-as-promised": "^4.1.1"
+    "chai-as-promised": "^4.1.1",
+    "q": "^1.0",
+    "request": "^2.0"
   }
 }
