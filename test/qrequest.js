@@ -75,6 +75,9 @@ describe ("QRequest", function(){
                 "key": "value"
             });
     });
+    it ("should reject requests with HTTP errors", function(){
+        return (new Request).get("http://some.unknown.host").should.eventually.be.rejected;
+    });
     it ("should get body if response status is 200", function(){
         return (new Request).get("http://echo.jsontest.com/key/value/one/two")
             .spread(Request.bodyIfStatusOk(200))
