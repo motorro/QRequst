@@ -9,6 +9,9 @@ It will produce Q-promises for request methods:
 * post
 * put
 
+[![Build Status](https://travis-ci.org/motorro/q-wrapped-request.svg?branch=master)](https://travis-ci.org/motorro/q-wrapped-request)
+[![Coverage Status](https://coveralls.io/repos/motorro/q-wrapped-request/badge.svg?branch=master&service=github)](https://coveralls.io/github/motorro/q-wrapped-request?branch=master)
+
 ## Installation
 ```
 npm install q-wrapped-request
